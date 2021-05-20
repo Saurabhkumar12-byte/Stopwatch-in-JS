@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+span{margin: 50px;}
+
+body {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: "KoHo", sans-serif;
+  font-size: 5rem;
+  /* margin-top: -15rem; */
+  font-weight: bolder;
+  text-align: center;
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.stopwatch {
+  font-family: "Roboto", sans-serif;
+  margin: 3rem auto;
+  font-weight: bold;
+  text-align: center;
+}
+.text {
+  font-size: 50px;
+}
+.hr,
+.min,
+.sec,
+.count {
+  font-size: 100px;
+}
+button {
+  padding: 0.7rem 1rem;
+  margin: 0.2rem 0.3rem;
+  color: rgb(51, 42, 42);
+  background-color: rgb(238, 48, 48);
+  border: none;
+  font-size: 1rem;
+  border-radius: 7px;
+  font-weight: bold;
+}
+button:first-child{
+    background-color: seagreen;
+}
+button:last-child{
+    background-color: rgb(214, 214, 36);
+}

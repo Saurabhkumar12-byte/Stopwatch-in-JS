@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch in javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <div class="stopwatch">
+            <span class="hr" id="hr">00</span>
+            <span  class="text">Hr</span>
+            <span class="min" id="min">00</span>
+            <span class="text">Min</span>
+            <span class="sec" id="sec">00</span>
+            <span class="text">Sec</span>
+            <span class="count" id="count">00</span>
+        </div>
+        <div class="button"><button onclick="start()">Start</button>
+            <button onclick="stop()">Stop</button>
+            <button onclick="reset()">Reset</button></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
